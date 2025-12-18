@@ -1,0 +1,23 @@
+.gridRow {
+  fill: #ffffff;
+}
+
+.gridRow:nth-child(even) {
+  fill: #ffffff;
+}
+
+.gridRowLine {
+  stroke: transparent;
+  stroke-width: 0;
+}
+
+.gridTick {
+  stroke: transparent;
+  stroke-width: 0;
+}
+
+.gridWeekTick {
+  stroke: #e5e7eb;
+  stroke-width: 1;
+  stroke-dasharray: none;
+}
